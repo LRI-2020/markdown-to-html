@@ -1,0 +1,63 @@
+*{
+    font-family: Verdana;
+    color: #070403;
+}
+
+#NacreImage{
+    width: 100%;
+    background-image: url(Nacre.avif);
+    background-size: cover;
+    min-height: 200px;
+}
+
+#NameAndText{
+    position: relative;
+    left: 200px;
+}
+
+#Photo{
+    position: relative;
+    bottom: 250px;
+    left: 33px;
+  
+}
+
+#Myself{
+    border-radius: 100%;
+
+}
+
+#ShortDescription{
+    font-weight: bold;
+}
+
+h2,h3{
+    border-bottom: solid black 1px;
+}
+
+#QuestionAnswers
+{
+ margin-left: 200px;
+ bottom: 100px;
+
+}
+
+.container{
+    background-color:snow	;
+    
+}
+
+table{
+    border: 1px solid;
+    width: 500px;
+    height: 150px;
+
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2e3e3;
+}
